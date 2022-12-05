@@ -33,6 +33,7 @@ def get_post(post_id):
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your secret key'
 
+
 @app.route('/healthz')
 def healthz():
     response = app.response_class(
