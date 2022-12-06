@@ -103,4 +103,3 @@ docker tag techtrends adedayoas91/techtrends:v1.0.0
 ## Docker command to push the images to dockerhub 
 
 docker push adedayoas91/techtrends:v1.0.0
-
