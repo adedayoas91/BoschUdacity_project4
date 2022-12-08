@@ -1,5 +1,5 @@
 argocd Password
-2xFcZ4Oc6eQfBs82 
+PicO9zKxNrrZXK2P 
 
 ## add some readme
 ## maybe more files
