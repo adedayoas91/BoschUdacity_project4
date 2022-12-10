@@ -141,6 +141,7 @@ username: admin
 password: run command 
 
 `` kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo ``
+>> The password returned in my case is "P5jfzFFf74uHb7yR"
 
 ![Screenshot (309)](https://user-images.githubusercontent.com/47278559/206719259-e9887995-95cb-4095-8f46-c0d37c17a674.png)
 
