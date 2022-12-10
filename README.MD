@@ -28,6 +28,8 @@ Step 3: Kubernetes Declarative Manifests
 
 Make sure your Oracle VM Box is open
 
+>> For an automated version of following steps, run ```./commands.sh```
+
 ### Create a vagrant box using the Vagrantfile in the current directory:
 
         `vagrant up`
