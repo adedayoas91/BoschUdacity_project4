@@ -141,7 +141,6 @@ username: admin
 password: run command 
 
 `` kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo ``
->> The password returned in my case is "P5jfzFFf74uHb7yR"
 
 ![Screenshot (309)](https://user-images.githubusercontent.com/47278559/206719259-e9887995-95cb-4095-8f46-c0d37c17a674.png)
 
@@ -169,8 +168,11 @@ Other possible Kubernetes command options that can be run are as follows:
 ![Screenshot (322)](https://user-images.githubusercontent.com/47278559/206858654-3f581e4b-826d-4355-9cc4-80c983740dd2.png)
 ![Screenshot (323)](https://user-images.githubusercontent.com/47278559/206858638-85c36def-7032-4994-bffc-5806ff135e1c.png)
 
+### The final GitHub Action successful build is as shown in the screenshot below
+![Screenshot (324)](https://user-images.githubusercontent.com/47278559/206859005-ce471b89-2be7-49a8-b1d9-1e6aaf6a0902.png)
 
-Links to useful resources are as follows:
+
+Other links useful for this task are as follows:
 
 * Official install guide for [ArgoCD](https://argoproj.github.io/argo-cd/getting_started/#1-install-argo-cd).
 * Log-in credentials can be retrieved using the steps in the [credentials guide](https://argoproj.github.io/argo-cd/getting_started/#4-login-using-the-cli).
