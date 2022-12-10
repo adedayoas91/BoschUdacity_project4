@@ -48,7 +48,7 @@ kubectl apply -f argocd-server-nodeport.yaml
 # get all services in argocd 
 kubectl  get svc -n argocd
 
-
+#create staging and prod config files - helm-techtrends-prod.yaml and helm-techtrends-prod.yaml 
 touch helm-techtrends-staging.yaml
 
 vim helm-techtrends-staging.yaml
@@ -57,6 +57,7 @@ touch helm-techtrends-prod.yaml
 
 vim helm-techtrends-prod.yaml
 
+# apply k8s on both helm files
 kubectl apply -f helm-techtrends-staging.yaml
 
 kubectl apply -f helm-techtrends-prod.yaml
