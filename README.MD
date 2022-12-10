@@ -3,7 +3,7 @@
 
 TechTrends is an online website used as a news-sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem. In addition to accessing the available articles, readers are able to create new media articles and share them. In this project, we packaged and deploy TechTrends Web application tunnelling CI/CD pipeline with the aid of tools, including but not limited to, Kubernetes, Argocd, Helm.
 
-### STEPS IN THE PROJECT
+## STEPS IN THE PROJECT
 
 Step 1: Creates docker images and tags them: Docker for Application Packaging.
 
@@ -24,7 +24,8 @@ Step 2: GitHub actions: Continuous Integration with GitHub Actions:
 
 Step 3: Kubernetes Declarative Manifests 
 
-### Deploy a Kubernetes cluster
+
+## Deploy a Kubernetes cluster
 
 Make sure your Oracle VM Box is open
 
