@@ -3,8 +3,10 @@
 #fire up vagrant to run in VBox
 vagrant up
 
-6#sh into vagrant server and give it sudo access
+#ssh into vagrant server and give it sudo access
 vagrant ssh
+
+# note due to change in terminal host, you have to copy and run each line following from here to continue
 sudo su
 
 #install k8s on the vagrant host
